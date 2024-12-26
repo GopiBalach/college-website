@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+<style>
+    .a1 
+    {
+        border-radius: 100px;
+        border-style:inset;
+        background: white;
+        padding: 20px;
+        width: 450px;
+        height:450px;
+        text-align: center;
+        margin-top:180px;
+        margin-left:550px;
+    }
+    body
+    {
+        background-image:url('image1.webp');
+    }
+    .a3
+    {
+        border: 2px solid rgb(21, 152, 67);
+        border-radius: 15px;
+        padding: 10px;
+    }
+</style>
+<body>
+    <div class="a1">
+        <h3 style="text-align: center;">Registration</h3>
+        <form action="registration.php" method="POST">
+        <input type="text"  id="name" placeholder="Enter firstname" name="firstname" class="a3"><br></br>
+        <input type="text"  id="name" placeholder="Enter lastname" name="lastname" class="a3"><br></br>
+        <input type="email"  id="email" placeholder="Enter email" name="email" class="a3"><br></br>
+        <input type="password"  id="pwd" placeholder="Enter password" name="password" class="a3"><br></br>
+        <button type="button" class="btn btn-primary" name="register">Register</button>
+        <h4>Have an account?</h4><button type="button" class="btn btn-primary">login</button>
+        
+    </form>
+    </div>
+</body>
+</html>
